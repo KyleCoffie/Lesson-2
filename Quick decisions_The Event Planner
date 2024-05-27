@@ -1,0 +1,27 @@
+# Task 1: Code correction
+
+attendees = int (input("Enter number of attendees:"))
+venue = "large hall" if attendees >100 else print("conference room")
+print (venue)
+
+#Task 2: Venue Selection
+
+attendees = int (input("Enter number of attendees:"))
+venue = "large hall" if attendees >100 else print("conference room")
+if attendees >100: 
+    print("prehaps an audio system and projector would be helpful also")
+else:
+    print("Maybe a projector would be helpful")
+print (venue)
+
+#Task 3:Catering Choices
+
+attendees = str (input("Catering? Y/N?"))
+if attendees == "Y" : 
+    food_choice = (input("vegetarian or naw?"))
+    if food_choice == "vegetarian":
+        print ("I reccomend Veggie Delight!")
+    else:
+        print("Try Gourmet Meals Caters")
+else:
+    print ("If stirring your family's mac and cheese doesnt sound like someone walking in the rain with flipsflops on I wont be attending.")
